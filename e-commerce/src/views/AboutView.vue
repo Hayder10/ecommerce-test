@@ -11,7 +11,7 @@
       }, 1000)
     }
   }
-  var mountedApp = Vue.createApp(contador2).mount('#app')
+  let mountedApp = Vue.createApp(contador2).mount('#app')
 </script>
 
 
