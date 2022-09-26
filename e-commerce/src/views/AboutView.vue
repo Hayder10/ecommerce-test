@@ -2,12 +2,12 @@
   const contador2 = {
     data() {
       return {
-        contador : 0
+        contador2 : 0
       }
     },
     mounted() {
       setInterval(() => {
-        this.contador ++;
+        this.contador2 ++;
       }, 1000)
     }
   }
